@@ -1,0 +1,21 @@
+Id1:str=str(input("enter your id:"))
+first_name1:str=str(input("enter your first name:"))
+last_name1:str=str(input("enter your last name:"))
+height1:float=float(input("enter your height:"))
+year_of_birth1:int=int(input("enter your year of birth:"))
+
+Id2:str=str(input("enter your id:"))
+first_name2:str=str(input("enter your first name:"))
+last_name2:str=str(input("enter your last name:"))
+height2:float=float(input("enter your height:"))
+year_of_birth2:int=int(input("enter your year of birth:"))
+
+Id3:str=str(input("enter your id:"))
+first_name3:str=str(input("enter your first name:"))
+last_name3:str=str(input("enter your last name:"))
+height3:float=float(input("enter your height:"))
+year_of_birth3:int=int(input("enter your year of birth:"))
+
+print(f"id:{Id1:<15}| first name:{first_name1:<15}| last name:{last_name1:<15}| height:{height1:<15}| year:{year_of_birth1:<15})")
+print(f"id:{Id2:<15}| first name:{first_name2:<15}| last name:{last_name2:<15}| height:{height2:<15}| year:{year_of_birth2:<15})")
+print(f"id:{Id3:<15}| first name:{first_name3:<15}| last name:{last_name3:<15}| height:{height3:<15}| year:{year_of_birth3:<15})")
